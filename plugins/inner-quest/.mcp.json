@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "inner_quest": {
+      "type": "http",
+      "url": "https://www.innerquest.app/api/mcp"
+    }
+  }
+}

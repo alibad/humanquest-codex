@@ -1,0 +1,42 @@
+{
+  "name": "inner-quest",
+  "version": "0.2.0",
+  "description": "Manage Inner Quest quests, actions, reflections, check-ins, and timeline items from Codex.",
+  "author": {
+    "name": "Inner Quest",
+    "url": "https://www.innerquest.app"
+  },
+  "homepage": "https://www.innerquest.app/connect",
+  "repository": "https://github.com/alibad/humanquest-codex",
+  "keywords": [
+    "inner-quest",
+    "goals",
+    "tasks",
+    "reflection",
+    "wellbeing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Inner Quest",
+    "shortDescription": "Manage quests, actions, and reflections.",
+    "longDescription": "Connect securely with Inner Quest sign-in to review progress, manage meaningful quests and actions, capture reflections, inspect check-ins, and explore the unified timeline—without copying API keys.",
+    "developerName": "Inner Quest",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.innerquest.app",
+    "privacyPolicyURL": "https://www.innerquest.app/privacy",
+    "termsOfServiceURL": "https://www.innerquest.app/terms",
+    "defaultPrompt": [
+      "Show my active quests and next actions.",
+      "Create an action for my highest-priority quest.",
+      "Summarize my recent reflections and check-ins."
+    ],
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/inner-quest.svg",
+    "logo": "./assets/inner-quest.svg"
+  },
+  "mcpServers": "./.mcp.json"
+}
