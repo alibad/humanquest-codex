@@ -1,0 +1,47 @@
+{
+  "name": "plan-quest",
+  "version": "0.2.1",
+  "description": "Plan, prioritize, and track your goals with Plan Quest in ChatGPT and Codex.",
+  "author": {
+    "name": "Human Quest LLC",
+    "email": "info@humanquest.net",
+    "url": "https://www.plans.quest"
+  },
+  "homepage": "https://my.plans.quest/support",
+  "repository": "https://github.com/alibad/humanquest-codex",
+  "license": "Apache-2.0",
+  "keywords": [
+    "planning",
+    "goals",
+    "priorities",
+    "productivity",
+    "mcp"
+  ],
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Plan Quest",
+    "shortDescription": "Plan and track your goals",
+    "longDescription": "Bring your Plan Quest workspace into ChatGPT and Codex. Review plans, priorities, backlog items, milestones, key results, mind maps, history, and collaborators, then make bounded updates with explicit permissions.",
+    "developerName": "Human Quest LLC",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.plans.quest",
+    "privacyPolicyURL": "https://my.plans.quest/privacy",
+    "termsOfServiceURL": "https://www.plans.quest/terms",
+    "defaultPrompt": [
+      "Open my Plan Quest workspace.",
+      "Show my priorities and recommend one next move.",
+      "Add this idea to my Plan Quest backlog."
+    ],
+    "brandColor": "#1D343E",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot-1.png"
+    ]
+  }
+}

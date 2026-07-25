@@ -6,6 +6,17 @@ This repository is a public plugin marketplace. Product backends, private applic
 
 ## Available plugins
 
+### Plan Quest
+
+Connect Codex and ChatGPT securely to Plan Quest to review plans, priorities,
+backlog items, milestones, key results, mind maps, history, and collaborators,
+then make bounded updates with explicit permissions.
+
+- Website: [plans.quest](https://www.plans.quest)
+- Authentication: OAuth 2.1 browser sign-in
+- MCP server: hosted by Plan Quest
+- API keys or local environment variables: not required
+
 ### Inner Quest
 
 Connect Codex securely to Inner Quest to review and manage quests, actions, reflections, check-ins, and timeline items.
@@ -35,13 +46,24 @@ Install Inner Quest:
 codex plugin add inner-quest@humanquest
 ```
 
-Start a new Codex task, select **Connect Inner Quest**, sign in through the browser, and approve access.
+Install Plan Quest:
+
+```bash
+codex plugin add plan-quest@humanquest
+```
+
+Start a new Codex task, select the installed plugin, sign in through the
+browser, and approve access.
 
 ## Repository layout
 
 ```text
 .agents/plugins/marketplace.json
 plugins/
+  plan-quest/
+    .codex-plugin/plugin.json
+    .app.json
+    assets/
   inner-quest/
     .codex-plugin/plugin.json
     .mcp.json
