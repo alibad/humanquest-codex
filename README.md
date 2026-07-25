@@ -19,12 +19,22 @@ then make bounded updates with explicit permissions.
 
 ### Inner Quest
 
-Connect Codex securely to Inner Quest to review and manage quests, actions, reflections, check-ins, and timeline items.
+Connect Codex securely to the Inner Quest Personal OS. Work with self context,
+quests, actions, private reflections, personal and work relationships,
+organizations, coaching or therapy records, meetings, check-ins, the unified
+timeline, Career Search preferences and evidence, sourced career opportunities,
+and cross-domain search through typed, user-owned operations.
 
 - Website: [innerquest.app](https://www.innerquest.app)
 - Authentication: OAuth 2.1 browser sign-in
 - MCP server: hosted by Inner Quest
 - API keys or local environment variables: not required
+
+The plugin package contains public metadata, agent instructions, branding, and
+the hosted MCP URL. The private Inner Quest application owns the API, OAuth,
+generated MCP tools, authorization, data access, tests, and production
+deployment. Tool definitions are discovered dynamically from the hosted server;
+they are not copied into this marketplace repository.
 
 ## Install from this marketplace
 
@@ -55,9 +65,26 @@ codex plugin add plan-quest@humanquest
 Start a new Codex task, select the installed plugin, sign in through the
 browser, and approve access.
 
+## Updating MCP capabilities
+
+When Inner Quest adds or changes MCP tools:
+
+1. Deploy the corresponding backend changes from the private Inner Quest
+   application repository.
+2. Confirm the production MCP server advertises the updated tool list.
+3. Update this marketplace only when the plugin manifest, skill guidance,
+   branding, or packaging also needs to change.
+4. Refresh or reinstall the plugin connection.
+5. Start a new Codex task so it receives the refreshed tool catalog.
+
+An existing task may continue to show the tool catalog that was loaded when the
+task started. A stale task does not necessarily mean the marketplace source or
+production MCP server is stale.
+
 ## Repository layout
 
 ```text
+AGENTS.md
 .agents/plugins/marketplace.json
 plugins/
   plan-quest/

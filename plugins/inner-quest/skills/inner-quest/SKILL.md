@@ -1,6 +1,6 @@
 ---
 name: inner-quest
-description: Manage the Inner Quest Personal OS through typed MCP tools for self context, quests, actions, private reflections, personal relationships, organizations and work relationships, coaching or therapy, meetings and transcripts, check-ins, timeline, and cross-domain search. Use when Codex needs to review, search, create, update, or delete the user's explicitly authorized Inner Quest records.
+description: Manage the Inner Quest Personal OS through typed MCP tools for self context, quests, actions, private reflections, relationships, organizations, coaching or therapy, meetings, Career Search preferences and evidence, sourced opportunities, timeline, and cross-domain search. Use when Codex needs to review, search, create, update, or delete the user's explicitly authorized Inner Quest records.
 ---
 
 # Inner Quest
@@ -63,3 +63,17 @@ Use the Inner Quest MCP tools for all account data. Do not reproduce HTTP reques
 2. Read only the relevant notes, transcript sections, summaries, homework, or coaching analysis.
 3. When creating homework, preserve the server-provided link to the unified action item.
 4. Confirm the exact record before any destructive change.
+
+### Career opportunity workflow
+
+1. Read Career Search preferences before evaluating fit; do not invent role,
+   location, work-mode, authorization, mobility, or compensation preferences.
+2. Resolve the exact opportunity and preserve its source provenance.
+3. Distinguish stored facts, linked Career Evidence, gaps, and open questions.
+   Do not manufacture a fit score or unsupported career claim.
+4. Update the opportunity stage only when the user asks or the workflow state
+   is explicit.
+5. Connect preparation to existing evidence, actions, quests, reflections, and
+   decision matrices instead of creating a parallel career system.
+6. Never submit an application or communicate externally unless a separately
+   named tool exists and the user explicitly requests that side effect.
