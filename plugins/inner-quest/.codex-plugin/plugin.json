@@ -1,7 +1,7 @@
 {
   "name": "inner-quest",
-  "version": "0.2.0+codex.20260725121439",
-  "description": "Manage the Inner Quest Personal OS: goals, actions, private reflections, relationships, organizations, coaching, and meetings.",
+  "version": "0.2.0+codex.20260725233654",
+  "description": "Manage the Inner Quest Personal OS: goals, actions, reflections, relationships, career opportunities, coaching, and meetings.",
   "author": {
     "name": "Inner Quest",
     "url": "https://www.innerquest.app"
@@ -23,7 +23,7 @@
   "interface": {
     "displayName": "Inner Quest",
     "shortDescription": "Work across your complete Personal OS.",
-    "longDescription": "Connect securely with Inner Quest sign-in to work across quests, actions, private reflections, personal and work relationships, coaching or therapy records, and meeting transcripts through typed tools\u2014without copying API keys.",
+    "longDescription": "Connect securely with Inner Quest sign-in to work across quests, actions, private reflections, personal and work relationships, sourced career opportunities and evidence, coaching or therapy records, and meeting transcripts through typed tools\u2014without copying API keys.",
     "developerName": "Inner Quest",
     "category": "Productivity",
     "capabilities": [
@@ -35,6 +35,7 @@
     "termsOfServiceURL": "https://www.innerquest.app/terms",
     "defaultPrompt": [
       "Show my active quests and next actions.",
+      "Review my career opportunities and identify the highest-value next step.",
       "Brief me on a relationship using my notes and recent interactions.",
       "Search my Personal OS for everything related to this topic."
     ],
