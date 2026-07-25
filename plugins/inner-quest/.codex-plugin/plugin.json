@@ -1,7 +1,7 @@
 {
   "name": "inner-quest",
-  "version": "0.2.0",
-  "description": "Manage Inner Quest quests, actions, reflections, check-ins, and timeline items from Codex.",
+  "version": "0.2.0+codex.20260725121439",
+  "description": "Manage the Inner Quest Personal OS: goals, actions, private reflections, relationships, organizations, coaching, and meetings.",
   "author": {
     "name": "Inner Quest",
     "url": "https://www.innerquest.app"
@@ -13,13 +13,17 @@
     "goals",
     "tasks",
     "reflection",
-    "wellbeing"
+    "relationships",
+    "coaching",
+    "meetings",
+    "wellbeing",
+    "personal-os"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Inner Quest",
-    "shortDescription": "Manage quests, actions, and reflections.",
-    "longDescription": "Connect securely with Inner Quest sign-in to review progress, manage meaningful quests and actions, capture reflections, inspect check-ins, and explore the unified timeline—without copying API keys.",
+    "shortDescription": "Work across your complete Personal OS.",
+    "longDescription": "Connect securely with Inner Quest sign-in to work across quests, actions, private reflections, personal and work relationships, coaching or therapy records, and meeting transcripts through typed tools\u2014without copying API keys.",
     "developerName": "Inner Quest",
     "category": "Productivity",
     "capabilities": [
@@ -31,8 +35,8 @@
     "termsOfServiceURL": "https://www.innerquest.app/terms",
     "defaultPrompt": [
       "Show my active quests and next actions.",
-      "Create an action for my highest-priority quest.",
-      "Summarize my recent reflections and check-ins."
+      "Brief me on a relationship using my notes and recent interactions.",
+      "Search my Personal OS for everything related to this topic."
     ],
     "brandColor": "#7C3AED",
     "composerIcon": "./assets/inner-quest.svg",
